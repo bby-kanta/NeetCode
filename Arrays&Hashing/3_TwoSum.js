@@ -10,8 +10,8 @@
 var twoSum = function(nums, target) {
     let answer = [];
 
-    for(let i = 0; i < nums.length -1; i++) {
-        for(let n = i+1; n < nums.length -1; n++) {
+    for(let i = 0; i < nums.length; i++) {
+        for(let n = i+1; n < nums.length; n++) {
             if (nums[i] + nums[n] == target) {
                 answer.push(i, n)
             }
